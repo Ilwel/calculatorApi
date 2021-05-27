@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
 
-      <Calculator calculatorApi = {new CalculatorApi('https://localhost:8080')}/>
+      <Calculator calculatorApi = {new CalculatorApi('http://localhost:8080')}/>
 
     </div>
   );
