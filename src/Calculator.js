@@ -26,9 +26,9 @@ class Calculator extends React.Component {
 
         }
 
-        if(operation === "-" || operation === "+" && this.state.numberIndex === ""){
+        if(operation === "-" && this.state.result === ""){
 
-            this.numberHandler(operation === "-" ? '-' : '+');
+            this.numberHandler(operation);
             return;
 
         }
